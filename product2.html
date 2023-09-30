@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JN Ecom - Login</title></head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header{
+            background-color: transparent;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+        .logo{
+            height: 80px;
+            weight: 80px;
+            margin: 20px;
+        }
+        .navbar{
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+        .navbar-container{
+            background-color: rgb(168, 99, 168);
+            color: #fff;
+            display: flex;
+            margin: 0 auto;
+            padding: 0 20px;
+            max-width: 1200%;
+        }
+        .category {
+            position: relative;
+            display: inline-block;
+            text-align: right;
+            margin-top: 15px;
+            padding: 10px;
+        }
+        .choices{
+            text-decoration: none;
+            color: #fff;
+            margin-left: 40px;
+            font-size: 20px;
+        }
+        .search1{
+            margin-top: 34px;
+            margin-left: 40%;
+            padding: 10px;
+            height: 30px;
+            width: 30px;
+        }
+        .search2{
+            margin-top: 34px;
+            margin-left: 50px;
+            padding: 10px;
+            height: 30px;
+            width: 30px;
+        }
+        /*end of navbar*/
+        .bg2{
+            position: relative;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 80%;
+        }
+
+        .product1-container{
+            background-color: rgb(226, 229, 233);
+            background-position: center;
+            background-size: cover;
+            margin: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-left: 100px;
+        }
+        .product1-container h2, h3{
+            color: black;
+            text-align: center;
+        }
+        .pr1-img{
+            margin: 20px;
+            margin-left: 33%;
+            margin-right: 30px;
+            height: 400px;
+            width: 400px;
+        }
+        .pr1 h1, h5{
+            color: black;
+        }
+        .user-input{
+            left: 30px;
+            margin: 10px;
+            padding: 8px;
+            background-color: aliceblue;
+            border-color: black;
+            text-align: left;
+            font-size: 15px;
+        }
+        .button{
+            background-color: rgb(107, 28, 100);
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            margin-bottom: 20px;
+            padding: 14px 40px;   
+        }
+        .button:hover{
+            background-color: rgb(17, 53, 85);
+            color: #fff;
+        }
+        .menuicon, .hearticon{
+            margin-top: 24px;
+            margin-left: 30px;
+            padding: 10px;
+            height: 20px;
+            width: 20px;
+            display: inline-flex;
+        }
+        .hearticon{
+            margin-left: 45%;
+        }
+        .bg-page{
+            margin: 50px;
+        }
+        .product-container, .product-container2{
+            position: relative;
+            text-align: center;
+            display: flex;  
+            margin-left: 10%;
+        }
+        .product-box h1{
+            color: black;
+            text-align: left;
+            font-size: 60px; 
+        }
+        .product-box img:hover{
+            background-color: rgb(251, 233, 251);
+        }
+        .product-box img{
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            padding: 45px;
+          
+        }
+        /*footer*/
+        footer{
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+        .footer1{
+            background-color: rgb(168, 99, 168);
+            color: #fff;
+            position: relative;
+            display: flex; 
+        }
+        .footer1 h3{
+            position: relative;
+            margin-left: 650px;
+        }
+        .socials-btn{
+            height: 20px;
+            width: 20px;
+        }
+        
+    </style>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-container">
+                <a href="index.html"><img src="Hackathon Resources/logo/J.png" class="logo"></a>
+                <ul>
+                    <li class="category"><a href="Main.html" class="choices">Home</a></li>
+                    <li class="category"><a href="product1.html" class="choices">Products</a></li>
+                    <li class="category"><a href="#" class="choices">About</a></li>
+                    <li class="category"><a href="index.html" class="choices">Profile</a></li>
+                </ul>
+                <img src="Hackathon Resources/icons/search.png" class="search1">
+                <img src="Hackathon Resources/icons/user.png" class="search2">
+                </div>
+            </div>
+            <div class="product1-container">
+                <div class="pr1">
+                    <img src="Hackathon Resources/6.webp" class="pr1-img">
+                    <h2>RGB Keyboard | Xitrix</h2>
+                    <h3>$2,000</h3>
+                    <img src="Hackathon Resources/icons/heart.png" class="hearticon">
+                    <img src="Hackathon Resources/icons/add.png" class="menuicon">
+                    <hr>
+
+                    <h1>Checkout Detail</h1>
+                    <div class="user-input"><h5>First Name:</h5></div>
+                    <div class="user-input"><h5>Last Name:</h5></div>
+                    <div class="user-input"><h5>Address:</h5></div>
+                    <div class="user-input"><h5>Country:</h5></div>
+                    <div class="user-input"><h5>Phone Number:</h5></div>
+                    <a href="index.html" class="button">Add to Cart</a>
+                    <a href="index.html" class="button">Buy Now</a>
+                    <br><hr>
+                </div>
+            </div>
+            <br>
+
+            <div class="divider">
+                <div class="bg-page">
+            </div>
+        </nav>
+    </header>
+    <section class="product-container">
+        <div class="product-box">
+            <a href="product1.html">
+            <img src="Hackathon Resources/6.webp">
+            <h3>RGB Keyboard | Xitrix</h3>
+            <h4>$500</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/146.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/87.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/160.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        
+    </section>
+    <section class="product-container2">
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/59.png">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/126.png">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/82.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/103.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+    </section>
+    <section class="product-container2">
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/33.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/60.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/158.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/159.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+    </section>
+
+    <div class="entry-page">
+        <div class="bg-page">
+            <img src="Hackathon Resources/cover/qiicftb.png" class="bg2">
+    </div>
+    <section class="product-container2">
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/94.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/146.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/87.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/160.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+    </section>
+    <section class="product-container2">
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/133.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/114.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/15.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/3.jpg">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+    </section>
+    <section class="product-container">
+        <div class="product-box">
+            <a href="product1.html">
+            <img src="Hackathon Resources/7.webp">
+            <h3>MSi | ASSO Gaming Plus</h3>
+            <h4>$2,500</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/146.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/87.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        <div class="product-box">
+            <a href="#">
+            <img src="Hackathon Resources/160.webp">
+            <h3>Keyboard | PC Set</h3>
+            <h4>$699</h4></a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <h3>Follow Us on our Social Media!</h3>
+             
+    </footer>
+    
+
+</body>
+</html>
